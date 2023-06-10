@@ -16,7 +16,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #2d0e92;
+  color: #256EFF;
   font-size: 36px;
   margin-top: 0;
 }
@@ -44,11 +44,11 @@ textarea, select, input[type="text"] {
 }
 
 textarea {
-  border: 2px solid #55c57a;
+  border: 2px solid #256EFF;
 }
 
 select {
-  border: 2px solid #55c57a;
+  border: 2px solid #256EFF;
   appearance: none;
   background-color: #f2f2f2;
   background-image: linear-gradient(45deg, transparent 50%, #f1f1f1 50%);
@@ -57,7 +57,7 @@ select {
 }
 
 input[type="text"] {
-  border: 2px solid #55c57a;
+  border: 2px solid #256EFF;
 }
 
 textarea:hover, select:hover, input[type="text"]:hover {
@@ -68,7 +68,7 @@ button[type="submit"] {
   display: block;
   margin: 20px auto;
   padding: 12px 24px;
-  background-color: #55c57a;
+  background-color: #256EFF;
   color: #ffffff;
   font-size: 18px;
   border: none;
@@ -78,7 +78,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #4aa167;
+  background-color: #3263c7;
 }
 
 #result {
