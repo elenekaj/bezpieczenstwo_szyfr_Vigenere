@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encryption Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encryption Website</h1>
+
+    <form id="encryptionForm">
+      <div class="form-group">
+        <label for="inputText">Enter Text:</label>
+        <textarea id="inputText" name="inputText" rows="4" cols="50"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="action">Action:</label>
+        <select id="action" name="action">
+          <option value="encrypt">Encrypt</option>
+          <option value="decrypt">Decrypt</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="key">Key:</label>
+        <input type="text" id="key" name="key">
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
